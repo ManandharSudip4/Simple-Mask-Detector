@@ -26,3 +26,5 @@ All the requirements are included in requirements.txt
 yolov3_training_last.weights is not added because of large file size, so you may encounter an error, to solve that error you need to train a model running following file using your own dataset.
 
 > YoloV3_Trainning.ipynb
+
+After training a model you will get yolov3_training_last.weights file should be copied to cloned directory. 

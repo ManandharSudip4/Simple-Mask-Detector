@@ -17,6 +17,12 @@ All the requirements are included in requirements.txt
 ### 3. Install python packages:
 > pip install -r requirements.txt
 
-### 5. Run the either test_on_video.py or Test_working_batch_photos.py:
+### 4. Run the either test_on_video.py or Test_working_batch_photos.py:
 > python test_on_video.py  
 >python Test_working_batch_photos.py
+
+
+## Note:
+yolov3_training_last.weights is not added because of large file size, so you may encounter an error, to solve that error you need to train a model running following file using your own dataset.
+
+> YoloV3_Trainning.ipynb
